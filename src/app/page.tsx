@@ -12,19 +12,18 @@ export default function Home() {
   return (
     <SiteThemeProvider theme={{ styleVariant: "funAndTrendy", colorTemplate: 1, textAnimation: "slide" }}>
       <div id="nav" data-section="nav">
-      <NavbarLayoutFloatingInline
-       logoSrc="/images/logo.svg"
-       logoAlt="MemeCoin Hub"
-       navItems={[{ name: "Hero", id: "hero" }, { name: "About", id: "about" }, { name: "How to Buy", id: "how-to-buy" }, { name: "Tokenomics", id: "tokenomics" }, { name: "Footer", id: "footer" }]}
-       buttonText="Buy MemeCoin"
-       sticky={true}
-       />
+        <NavbarLayoutFloatingInline
+          logoSrc="/images/logo.svg"
+          navItems={[{ name: "Hero", id: "hero" }, { name: "About", id: "about" }, { name: "How to Buy", id: "how-to-buy" }, { name: "Tokenomics", id: "tokenomics" }, { name: "Footer", id: "footer" }]}
+          buttonText="Buy MemeCoin"
+          sticky={true}
+        />
       </div>
       <div id="hero" data-section="hero">
         <TokenBillboardHero
           title="Welcome to MemeCoin Hub"
           subtitle="Join the meme revolution!"
-          contractAddress="0x123456789...\"
+          contractAddress="0x123456789..."
           copyButtonText="Copy Address"
           copiedText="Address Copied!"
         />
@@ -45,9 +44,9 @@ export default function Home() {
           title="Tokenomics"
           description="Explore the financial details of MemeCoin"
           kpiItems={[
-            { value: "1 Billion", description: "Total Supply", longDescription: "The maximum amount of MemeCoin available.", icon: "Coins" },
+            { value: "1 Billion", description: "Total Supply", longDescription: "The maximum amount of MemeCoin available.", icon: "Shield" },
             { value: "75%", description: "Circulating Supply", longDescription: "Amount currently in distribution.", icon: "Cash" },
-            { value: "10%", description: "Liquidity Pool", longDescription: "Funded to ensure trading stability.", icon: "Shield" }
+            { value: "10%", description: "Liquidity Pool", longDescription: "Funded to ensure trading stability.", icon: "Coins" }
           ]}
         />
       </div>
