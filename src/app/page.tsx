@@ -21,18 +21,18 @@ export default function Home() {
           onButtonClick={() => console.log('Buy MemeMint clicked')}
         />
       </div>
-      <div id="hero" data-section="hero">
+      <div id="hero" data-section="hero" className="scroll-mt-24">
         <BillboardHero
-          title="Welcome to MemeMint"
+          title="Hey there"
           subtitle="Your gateway to playful digital assets"
         />
       </div>
-      <div id="about" data-section="about">
+      <div id="about" data-section="about" className="scroll-mt-24">
         <SplitAbout
           description="MemeMint is a playful, innovative platform that allows users to create, trade, and enjoy meme-themed digital assets, fostering creativity and community engagement."
         />
       </div>
-      <div id="how-to-buy" data-section="how-to-buy">
+      <div id="how-to-buy" data-section="how-to-buy" className="scroll-mt-24">
         <HowToBuy3D
           title="How to Buy MemeMint"
           steps={[
@@ -42,7 +42,7 @@ export default function Home() {
           ]}
         />
       </div>
-      <div id="tokenomics" data-section="tokenomics">
+      <div id="tokenomics" data-section="tokenomics" className="scroll-mt-24">
         <NumberGridTokenomics
           title="MemeMint Tokenomics"
           description="Explore our transparent and fair tokenomics that benefit the community."
@@ -53,7 +53,7 @@ export default function Home() {
           ]}
         />
       </div>
-      <div id="faq" data-section="faq">
+      <div id="faq" data-section="faq" className="scroll-mt-24">
         <BentoFAQ
           items={[
             { title: 'What is MemeMint?', content: 'MemeMint is a platform for meme enthusiasts to create, share, and trade digital assets.' },
@@ -63,7 +63,7 @@ export default function Home() {
           ]}
         />
       </div>
-      <div id="footer" data-section="footer">
+      <div id="footer" data-section="footer" className="scroll-mt-24">
         <FooterLogoEmphasisBackgroundGradient
           logoSrc="/images/logo.svg"
           logoAlt="MemeMint Logo"
