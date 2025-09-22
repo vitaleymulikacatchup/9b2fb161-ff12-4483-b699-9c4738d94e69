@@ -16,19 +16,15 @@ const playfairDisplay = Playfair_Display({
 
 export const metadata: Metadata = {
   title: "MemeCoin Hub",
-  description: "Launch a clear, fun single-page landing that introduces MemeCoin, explains how to buy, and presents tokenomics with strong CTAs.",
+  description: "Launch a clear, fun single-page landing that introduces MemeCoin, explains how to buy, and presents tokenomics with strong CTAs."
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode; }>) {
   return (
     <html lang="en">
-      <body
-        className={`${interTight.variable} ${playfairDisplay.variable} antialiased`}
-      >
+      <body className={`${interTight.variable} ${playfairDisplay.variable} antialiased`}>
         {children}
       </body>
     </html>
