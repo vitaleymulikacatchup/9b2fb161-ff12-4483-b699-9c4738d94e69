@@ -7,7 +7,7 @@ import SocialsAbout from '@/components/sections/layouts/about/SocialsAbout';
 import HowToBuy2D from '@/components/sections/layouts/howtobuy/2DHTB';
 import BigNumberTokenomics from '@/components/sections/layouts/tokenomics/BigNumberTokenomics';
 import FooterLogoEmphasis from '@/components/footer/FooterLogoEmphasis';
-import { Shield, Cash, Coins } from 'lucide-react';
+import { Shield, Coins } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -45,8 +45,7 @@ export default function Home() {
           description="Explore the financial details of MemeCoin"
           kpiItems={[
             { value: "1 Billion", description: "Total Supply", longDescription: "The maximum amount of MemeCoin available.", icon: Shield },
-            { value: "75%", description: "Circulating Supply", longDescription: "Amount currently in distribution.", icon: Cash },
-            { value: "10%", description: "Liquidity Pool", longDescription: "Funded to ensure trading stability.", icon: Coins }
+            { value: "75%", description: "Circulating Supply", longDescription: "Amount currently in distribution.", icon: Coins }
           ]}
         />
       </div>
