@@ -43,9 +43,9 @@ export default function Home() {
           title="Tokenomics"
           description="Explore the financial details of MemeCoin"
           kpiItems={[
-            { value: "1 Billion", description: "Total Supply", longDescription: "The maximum amount of MemeCoin available.", icon: "Shield" },
-            { value: "75%", description: "Circulating Supply", longDescription: "Amount currently in distribution.", icon: "Cash" },
-            { value: "10%", description: "Liquidity Pool", longDescription: "Funded to ensure trading stability.", icon: "Coins" }
+            { value: "1 Billion", description: "Total Supply", longDescription: "The maximum amount of MemeCoin available.", icon: Shield },
+            { value: "75%", description: "Circulating Supply", longDescription: "Amount currently in distribution.", icon: Cash },
+            { value: "10%", description: "Liquidity Pool", longDescription: "Funded to ensure trading stability.", icon: Coins }
           ]}
         />
       </div>
